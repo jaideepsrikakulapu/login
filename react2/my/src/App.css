@@ -1,0 +1,32 @@
+/* AuthButtons.css */
+
+/* Container for buttons */
+.auth-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin-top: 20px; /* Space above the buttons */
+}
+
+/* Common styles for buttons */
+.auth-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  margin: 0 10px; /* Margin between buttons */
+}
+
+/* Hover effect for buttons */
+.auth-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Disabled button style */
+.auth-button:disabled {
+  background-color: #c0c0c0; /* Grey background for disabled state */
+  cursor: not-allowed; /* Not-allowed cursor */
+}
